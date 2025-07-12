@@ -108,18 +108,6 @@ Authentication is session-based (cookies), and all endpoints are protected as ap
 
 ---
 
-##  Project Structure
-
-backend/
-├── models/         # Mongoose models (User, Swap, Feedback)
-├── routes/         # Express route handlers (api, auth, swaps, feedback, admin)
-├── server.js       # Main server file
-├── config.js       # Configuration
-├── package.json    # Dependencies
-└── README.md       # This file
-
-
----
 
 ##  Notes
 - All endpoints return JSON responses.
